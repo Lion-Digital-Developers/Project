@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#B1B1B1"
+    android:orientation="vertical">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/llselectalarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E3E0E0"
+        android:padding="20dp"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:text="Set App Theme" />
+
+    <Button
+        android:id="@+id/button_color"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="15dp"
+        app:fabCustomSize="60dp"
+        android:background="@color/colorPrimary"
+        />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/line_drawable"/>
+
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E3E0E0"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_weight="1"
+            android:id="@+id/tv_lang"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:text="Select Language" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/line_drawable"/>
+
+
+
+</LinearLayout>
